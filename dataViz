@@ -1,0 +1,57 @@
+// Step 2: Load data  
+d3.csv("data.csv", function(data) {  
+  // Step 3: Choose a visualization type (e.g. bar chart)  
+  var margin = {top: 20, right: 20, bottom: 30, left: 40};  
+  var width = 500 - margin.left - margin.right;  
+  var height = 300 - margin.top - margin.bottom;  
+
+  // Step 4: Create an SVG element  
+  var svg = d3.select("body")  
+    .append("svg")  
+    .attr("width", width + margin.left + margin.right)  
+    .attr("height", height + margin.top + margin.bottom)  
+    .append("g")  
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");  
+
+  // Step 5: Add scales and axes  
+  var xScale = d3.scaleBand()  
+    .domain(data.map(function(d) { return d.category; }))  
+    .range([0, width])  
+    .padding(0.2);  
+
+  var yScale = d3.scaleLinear()  
+    .domain([0, d3.max(data, function(d) { return d.value; })])  
+    .range([height, 0]);  
+
+  var xAxis = d3.axisBottom(xScale);  
+  var yAxis = d3.axisLeft(yScale);  
+
+  svg.append("g")  
+    .attr("class", "x axis")  
+    .attr("transform", "translate(0," + height + ")")  
+    .call(xAxis);  
+
+  svg.append("g")  
+    .attr("class", "y axis")  
+    .call(yAxis);  
+
+  // Step 6: Add data elements  
+  var bars = svg.selectAll(".bar")  
+    .data(data)  
+    .enter()  
+    .append("rect")  
+    .attr("class", "bar")  
+    .attr("x", function(d) { return xScale(d.category); })  
+    .attr("y", function(d) { return height - yScale(d.value); })  
+    .attr("width", xScale.bandwidth())  
+    .attr("height", function(d) { return yScale(d.value); });  
+
+  // Step 7: Add interactivity  
+  bars.on("mouseover", function(d) {  
+    // highlight the bar on mouseover  
+  });  
+
+  bars.on("click", function(d) {  
+    // show a tooltip on click  
+  });  
+});
