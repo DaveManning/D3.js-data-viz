@@ -1,0 +1,28 @@
+{
+  "name": "d3.js-data-viz",
+  "version": "1.0.0",
+  "description": "data viz json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveManning/D3.js-data-viz.git"
+  },
+  "keywords": [
+    "d3.js",
+    "data",
+    "visualization",
+    "advertising"
+  ],
+  "author": "dave manning",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DaveManning/D3.js-data-viz/issues"
+  },
+  "homepage": "https://github.com/DaveManning/D3.js-data-viz#readme",
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}
