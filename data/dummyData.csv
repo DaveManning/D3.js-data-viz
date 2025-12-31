@@ -1,0 +1,8 @@
+date,lead_source,signups,qualified_leads,paying_customers,MRR,ARR,CAC,CLTV,churn_rate,enrichment_success,feature_dash_engage,feature_ai_chat,feature_export,lead_firmographic_completeness
+2024-04-01,Organic,120,50,10,1200,14400,290,2100,0.07,45,42,37,22,35
+2024-04-01,Paid,60,25,4,480,5760,430,2300,0.09,19,18,15,7,16
+2024-04-01,Referral,30,18,5,600,7200,210,2500,0.06,13,12,10,5,13
+2024-04-01,Direct,20,12,3,360,4320,120,1800,0.05,9,9,7,3,10
+2024-05-01,Organic,140,62,13,1560,18720,285,2150,0.06,52,49,44,29,42
+2024-05-01,Paid,75,31,5,600,7200,440,2250,0.08,23,20,18,10,18
+
