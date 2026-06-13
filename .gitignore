@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+
+# editor lock / temp files
+*.~lock.*#
+*~
