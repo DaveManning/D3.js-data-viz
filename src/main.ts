@@ -1,22 +1,14 @@
 import { render } from '@/core/embed';
-import { barChart } from '@/charts/bar/bar';
-import type { Datum } from '@/types';
+import { paretoChart } from '@/charts/pareto/pareto';
+import { painPointScores } from '@/data/aftermarket-pain-points';
 
-// Sample data — the first real dataset (the Pareto pain-points) lands in M1.
-const data: Datum[] = [
-  { category: 'Pricing & discounting', value: 4.8 },
-  { category: 'Field workforce', value: 4.3 },
-  { category: 'Aftermarket capture', value: 3.8 },
-  { category: 'Spare-parts availability', value: 3.6 },
-  { category: 'Value proposition', value: 3.3 },
-  { category: 'Org design', value: 3.1 },
-];
-
+// M1: the real weighted-impact Pareto, replacing the static Plotly export.
 render(
   '#chart',
-  barChart(data, {
-    x: 'category',
-    y: 'value',
-    title: 'Vertical slice — bar chart spec factory → themed runtime',
+  paretoChart(painPointScores, {
+    category: 'label',
+    value: 'score',
+    threshold: 80,
+    title: 'Aftermarket & service pain points — weighted impact (Pareto)',
   }),
 );

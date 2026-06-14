@@ -14,9 +14,10 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
 
 ## M1 — Prove the pattern on real data
 
-- [ ] Reimplement the **Pareto** chart (currently a static Plotly export) as a
-      spec factory on the real pain-point/revenue-impact data. This retires
-      `pareto_*.html` and validates that the contract holds for a dual-axis chart.
+- [x] Reimplement the **Pareto** chart (was a static Plotly export) as a factory
+      (`src/charts/pareto/`) on the real weighted pain-point data
+      (`src/data/aftermarket-pain-points.ts`). Proves the contract on a dual-axis
+      chart; the old `pareto_*.html` exports moved to `legacy/`.
 - [x] Establish `themes/default.ts` as the shared Plot default options.
 - [ ] Add `LineChart` and `ScatterPlot` factories.
 
