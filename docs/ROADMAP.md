@@ -35,18 +35,23 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
 
 ## M3 — Components & interaction
 
-- [x] `components/Filters` (`createSelectFilter`) and `components/Table`
-      (`renderTable`) — first custom UI components.
-- [ ] `components/StoryPanel`.
+- [x] `components/Filters` (`createSelectFilter`), `components/Table`
+      (`renderTable`, selectable rows), and `components/StoryPanel`
+      (`renderStoryPanel`).
 - [x] First coordinated interaction: a control re-renders a chart via the
       registry (`dashboards/advertising-explorer`).
-- [ ] Linked selections *across* views (brush in one chart filters another),
-      via Plot render hooks + shared state.
+- [x] Linked selections across views via a shared store (`core/store.ts`):
+      `dashboards/pain-point-explorer` — selecting in the table drives the bar
+      chart and the story panel.
+- [ ] Chart-native selection (brush/click *inside* a chart) feeding the store,
+      using Plot's input/value interaction.
 
 ## M4 — Dashboard ecosystem
 
 - [x] First dashboard: `dashboards/advertising-explorer` (Filters → scatter → table).
-- [ ] Multi-view dashboard with shared selections across charts.
+- [x] Multi-view dashboard with shared selections (`dashboards/pain-point-explorer`).
+- [ ] Persist/restore dashboard state (which presets, current selection) — the
+      payoff of presets being serializable descriptors.
 - [ ] A first end-to-end dashboard on a real dataset.
 
 ## Backlog / hygiene

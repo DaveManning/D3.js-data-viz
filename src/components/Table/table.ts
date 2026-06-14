@@ -4,6 +4,10 @@ import { resolveElement } from '@/utils/dom';
 export interface TableOptions {
   /** Columns to show, in order. Defaults to the keys of the first row. */
   columns?: string[];
+  /** Called when a row is clicked; makes rows interactive. */
+  onRowClick?: (row: Datum, index: number) => void;
+  /** Index of the row to mark as selected (adds the `is-selected` class). */
+  selectedIndex?: number;
 }
 
 /**
@@ -30,14 +34,19 @@ export function renderTable(
   }
 
   const tbody = table.createTBody();
-  for (const row of data) {
+  data.forEach((row, index) => {
     const tr = tbody.insertRow();
     for (const column of columns) {
       const td = tr.insertCell();
       const value = row[column];
       td.textContent = value == null ? '' : String(value);
     }
-  }
+    if (index === options.selectedIndex) tr.classList.add('is-selected');
+    if (options.onRowClick) {
+      tr.style.cursor = 'pointer';
+      tr.addEventListener('click', () => options.onRowClick!(row, index));
+    }
+  });
 
   target.replaceChildren(table);
   return table;

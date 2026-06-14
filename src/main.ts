@@ -2,6 +2,7 @@ import '@/charts'; // register the built-in charts
 import { renderChart } from '@/core/registry';
 import { galleryPresets } from '@/specs/presets';
 import { advertisingExplorer } from '@/dashboards/advertising-explorer';
+import { painPointExplorer } from '@/dashboards/pain-point-explorer';
 import { resolveElement } from '@/utils/dom';
 
 // Gallery: render each preset by name through the registry.
@@ -13,5 +14,6 @@ for (const preset of galleryPresets) {
   renderChart(card, preset.chart, preset.data, preset.options);
 }
 
-// Coordinated dashboard.
+// Coordinated dashboards.
 advertisingExplorer('#explorer');
+painPointExplorer('#painpoints');

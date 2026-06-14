@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { renderTable } from './table';
 import type { Datum } from '@/types';
 
@@ -27,5 +27,17 @@ describe('renderTable', () => {
     const el = document.createElement('div');
     renderTable(el, []);
     expect(el.querySelectorAll('tbody tr').length).toBe(0);
+  });
+
+  it('marks the selected row and fires onRowClick with the datum and index', () => {
+    const el = document.createElement('div');
+    const onRowClick = vi.fn();
+    renderTable(el, data, { selectedIndex: 1, onRowClick });
+
+    const rows = el.querySelectorAll('tbody tr');
+    expect(rows[1].classList.contains('is-selected')).toBe(true);
+
+    rows[0].dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    expect(onRowClick).toHaveBeenCalledWith(data[0], 0);
   });
 });

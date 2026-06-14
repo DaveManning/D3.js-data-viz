@@ -36,6 +36,11 @@
     .viz-table th, .viz-table td { padding: 0.4rem 0.6rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
     .viz-table th { color: #1e293b; font-weight: 600; }
     .viz-table td { color: #475569; }
+    .viz-table tbody tr.is-selected { background: #eef2ff; }
+    .viz-table tbody tr.is-selected td { color: #312e81; font-weight: 600; }
+    .viz-story { margin-top: 1.25rem; padding: 1rem 1.25rem; background: #f1f5f9; border-radius: 0.75rem; }
+    .viz-story h3 { margin: 0 0 0.5rem; font-size: 0.95rem; color: #0f172a; }
+    .viz-story p { margin: 0.25rem 0; }
   </style>
 </head>
 <body>
@@ -48,6 +53,9 @@
 
     <h2>Coordinated dashboard</h2>
     <div id="explorer" class="chart"></div>
+
+    <h2>Linked dashboard — select a pain point</h2>
+    <div id="painpoints" class="chart"></div>
   </main>
   <script type="module" src="/src/main.ts"></script>
 </body>
