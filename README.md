@@ -1,14 +1,14 @@
 # D3.js-data-viz
 
 A layered, declarative data-visualization toolkit. Charts are **pure functions
-from data to a [Vega-Lite](https://vega.github.io/vega-lite/) spec**, rendered
-through a single thin runtime wrapper, themed centrally, and composed into
-dashboards.
+from data to an [Observable Plot](https://observablehq.com/plot/) spec**,
+rendered through a single thin runtime wrapper, themed centrally, and composed
+into dashboards.
 
 > **Status: early.** The foundation and first vertical slice are landing now.
 > See [docs/ROADMAP.md](docs/ROADMAP.md) for what's built and what's next, and
 > [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the design and the reasoning
-> behind building on Vega-Lite rather than a hand-rolled engine.
+> behind building on Observable Plot rather than a hand-rolled engine.
 
 ## The idea
 
@@ -25,7 +25,8 @@ import { barChart } from './src/charts/bar/bar';
 render('#chart', barChart(data, { x: 'category', y: 'value' }));
 ```
 
-Because a chart is just JSON, it's testable without a browser.
+A factory is a pure function, so its output is asserted directly in tests;
+rendering is verified by mounting into a jsdom DOM.
 
 ## Develop
 
@@ -40,12 +41,12 @@ npm run build    # production build
 
 ```
 src/
-├── core/         thin host: embed/render wrapper, theme applier, chart registry
-├── charts/       spec factories — (data, options) => Vega-Lite spec
+├── core/         thin host: Plot.plot wrapper + theme application
+├── charts/       chart factories — (data, options) => Plot spec
 ├── components/   custom UI (Filters, Table, StoryPanel)
-├── dashboards/   composed, cross-filtered views
-├── specs/        serialized example specs + shared types
-├── themes/       Vega-Lite config objects
+├── dashboards/   composed, coordinated views
+├── specs/        reusable option presets + shared types
+├── themes/       default Plot options
 └── utils/
 docs/             ARCHITECTURE.md, ROADMAP.md
 data/             datasets

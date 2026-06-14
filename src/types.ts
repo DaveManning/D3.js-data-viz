@@ -5,8 +5,8 @@ export type Datum = Record<string, unknown>;
 export interface BaseChartOptions {
   /** Optional title rendered above the view. */
   title?: string;
-  /** Width in pixels, or "container" to fill the parent. */
-  width?: number | 'container';
-  /** Height in pixels, or "container" to fill the parent. */
-  height?: number | 'container';
+  /** Width in pixels. */
+  width?: number;
+  /** Height in pixels. */
+  height?: number;
 }

@@ -7,28 +7,29 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
 
 - [x] Recreate remote repository
 - [x] Capture vision as living docs (`ARCHITECTURE.md`, `ROADMAP.md`)
-- [ ] Tooling: Vite + TypeScript + Vitest
-- [ ] First vertical slice: a bar chart spec factory → `core/embed` → themed render, with a passing test and a demo page
-- [ ] `.gitignore` and repo hygiene
+- [x] Tooling: Vite + TypeScript + Vitest
+- [x] First vertical slice: a bar chart factory → `core/embed` → themed render, with a passing test and a demo page
+- [x] Settle the runtime: Observable Plot (see ARCHITECTURE.md for the Plot-vs-Vega-Lite reasoning)
+- [x] `.gitignore` and repo hygiene
 
 ## M1 — Prove the pattern on real data
 
 - [ ] Reimplement the **Pareto** chart (currently a static Plotly export) as a
       spec factory on the real pain-point/revenue-impact data. This retires
       `pareto_*.html` and validates that the contract holds for a dual-axis chart.
-- [ ] Establish `themes/default.ts` as the shared Vega-Lite config.
+- [x] Establish `themes/default.ts` as the shared Plot default options.
 - [ ] Add `LineChart` and `ScatterPlot` factories.
 
 ## M2 — Extract the engine
 
 - [ ] With 3–4 charts built, extract genuine commonality into `core/`
       (chart registry, shared option types, theme application).
-- [ ] Formalize `specs/` types and ship a few serialized example specs.
+- [ ] Formalize `specs/` types and ship a few reusable option presets.
 
 ## M3 — Components & interaction
 
 - [ ] `components/`: Filters, Table, StoryPanel.
-- [ ] Vega-Lite selections for cross-filtering between views.
+- [ ] Coordinated/linked selections across views (Plot render hooks + shared state).
 
 ## M4 — Dashboard ecosystem
 

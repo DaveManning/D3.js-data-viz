@@ -1,44 +1,38 @@
-import type { TopLevelSpec } from 'vega-lite';
+import * as Plot from '@observablehq/plot';
 import type { BaseChartOptions, Datum } from '@/types';
 
 export interface BarOptions extends BaseChartOptions {
-  /** Field for the categorical (nominal) axis. */
+  /** Field for the categorical axis. */
   x: string;
   /** Field for the quantitative axis. */
   y: string;
-  /** Optional field to color bars by; defaults to coloring by `x`. */
+  /** Optional field to color bars by; defaults to coloring by the category. */
   color?: string;
-  /** Render horizontally (swap x/y). Defaults to vertical bars. */
+  /** Render horizontally (swap the axes). Defaults to vertical bars. */
   horizontal?: boolean;
 }
 
 /**
- * Bar chart spec factory — the reference implementation of the project's chart
- * contract: a pure function from data + options to a Vega-Lite spec, with no
- * rendering side effects. See docs/ARCHITECTURE.md.
+ * Bar chart factory — the reference implementation of the project's chart
+ * contract: a pure function from data + options to a Plot spec (the options
+ * object for `Plot.plot()`), with no rendering side effects. Render it through
+ * `core/embed`. See docs/ARCHITECTURE.md.
  */
-export function barChart(data: Datum[], options: BarOptions): TopLevelSpec {
-  const { x, y, color, horizontal, title, width = 'container', height } = options;
+export function barChart(data: Datum[], options: BarOptions): Plot.PlotOptions {
+  const { x, y, color, horizontal, title, width, height } = options;
+  const fill = color ?? x;
 
-  const cat = { field: x, type: 'nominal' as const, title: x };
-  const quant = { field: y, type: 'quantitative' as const, title: y };
+  const bar = horizontal
+    ? Plot.barX(data, { x: y, y: x, fill, tip: true, sort: { y: '-x' } })
+    : Plot.barY(data, { x, y, fill, tip: true, sort: { x: '-y' } });
+  const baseline = horizontal ? Plot.ruleX([0]) : Plot.ruleY([0]);
 
   return {
-    $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-    ...(title ? { title } : {}),
-    width,
-    ...(height ? { height } : {}),
-    data: { values: data },
-    mark: { type: 'bar', cornerRadiusEnd: 4 },
-    encoding: {
-      x: horizontal ? quant : cat,
-      y: horizontal ? cat : quant,
-      color: {
-        field: color ?? x,
-        type: 'nominal',
-        legend: color ? undefined : null,
-      },
-      tooltip: [cat, quant],
-    },
+    ...(title !== undefined ? { title } : {}),
+    ...(width !== undefined ? { width } : {}),
+    ...(height !== undefined ? { height } : {}),
+    x: { label: horizontal ? y : x },
+    y: { label: horizontal ? x : y },
+    marks: [bar, baseline],
   };
 }
