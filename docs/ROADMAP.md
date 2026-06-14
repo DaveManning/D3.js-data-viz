@@ -19,7 +19,10 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
       (`src/data/aftermarket-pain-points.ts`). Proves the contract on a dual-axis
       chart; the old `pareto_*.html` exports moved to `legacy/`.
 - [x] Establish `themes/default.ts` as the shared Plot default options.
-- [ ] Add `LineChart` and `ScatterPlot` factories.
+- [x] Add `LineChart` and `ScatterPlot` factories.
+- [x] Seed the data layer: a small CSV loader (`utils/csv.ts`) + typed data
+      modules (`data/advertising.ts`, `data/quarterly-revenue.ts`) loaded via
+      Vite `?raw`. Demo is now a gallery (Pareto + scatter + line).
 
 ## M2 — Extract the engine
 
