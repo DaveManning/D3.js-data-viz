@@ -1,11 +1,9 @@
 import * as Plot from '@observablehq/plot';
-import type { BaseChartOptions, Datum } from '@/types';
+import type { Datum } from '@/types';
+import type { CategoryValueOptions } from '@/specs/options';
+import { frame } from '@/core/spec';
 
-export interface ParetoOptions extends BaseChartOptions {
-  /** Field naming each category. */
-  category: string;
-  /** Field holding the value to rank and accumulate. */
-  value: string;
+export interface ParetoOptions extends CategoryValueOptions {
   /** Cumulative-% threshold marker (the "vital few" cutoff). 0 hides it. Default 80. */
   threshold?: number;
 }
@@ -50,7 +48,7 @@ export function paretoSeries(data: Datum[], category: string, value: string): Pa
  * as percentages.
  */
 export function paretoChart(data: Datum[], options: ParetoOptions): Plot.PlotOptions {
-  const { category, value, threshold = 80, title, width, height = 440 } = options;
+  const { category, value, threshold = 80 } = options;
 
   const series = paretoSeries(data, category, value);
   const order = series.map((r) => r.category);
@@ -93,9 +91,7 @@ export function paretoChart(data: Datum[], options: ParetoOptions): Plot.PlotOpt
   );
 
   return {
-    ...(title !== undefined ? { title } : {}),
-    width: width ?? 860,
-    height,
+    ...frame(options, { width: 860, height: 440 }),
     marginBottom: 90,
     marginRight: 56,
     x: { domain: order, label: null, tickRotate: -20 },

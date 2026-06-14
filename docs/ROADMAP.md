@@ -26,9 +26,12 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
 
 ## M2 — Extract the engine
 
-- [ ] With 3–4 charts built, extract genuine commonality into `core/`
-      (chart registry, shared option types, theme application).
-- [ ] Formalize `specs/` types and ship a few reusable option presets.
+- [x] Extract the repetition the four charts revealed: `core/spec.ts` (`frame()`
+      for title/width/height), `core/registry.ts` (name → factory dispatch +
+      `renderChart`), and `specs/options.ts` (shared `XYOptions` /
+      `CategoryValueOptions`). Theme application already lives in `core/embed`.
+- [ ] Ship a few reusable option presets in `specs/` (pre-wired chart configs
+      for the bundled datasets).
 
 ## M3 — Components & interaction
 

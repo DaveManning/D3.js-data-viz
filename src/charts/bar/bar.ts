@@ -1,11 +1,9 @@
 import * as Plot from '@observablehq/plot';
-import type { BaseChartOptions, Datum } from '@/types';
+import type { Datum } from '@/types';
+import type { XYOptions } from '@/specs/options';
+import { frame } from '@/core/spec';
 
-export interface BarOptions extends BaseChartOptions {
-  /** Field for the categorical axis. */
-  x: string;
-  /** Field for the quantitative axis. */
-  y: string;
+export interface BarOptions extends XYOptions {
   /** Optional field to color bars by; defaults to coloring by the category. */
   color?: string;
   /** Render horizontally (swap the axes). Defaults to vertical bars. */
@@ -19,7 +17,7 @@ export interface BarOptions extends BaseChartOptions {
  * `core/embed`. See docs/ARCHITECTURE.md.
  */
 export function barChart(data: Datum[], options: BarOptions): Plot.PlotOptions {
-  const { x, y, color, horizontal, title, width, height } = options;
+  const { x, y, color, horizontal } = options;
   const fill = color ?? x;
 
   const bar = horizontal
@@ -28,9 +26,7 @@ export function barChart(data: Datum[], options: BarOptions): Plot.PlotOptions {
   const baseline = horizontal ? Plot.ruleX([0]) : Plot.ruleY([0]);
 
   return {
-    ...(title !== undefined ? { title } : {}),
-    ...(width !== undefined ? { width } : {}),
-    ...(height !== undefined ? { height } : {}),
+    ...frame(options),
     x: { label: horizontal ? y : x },
     y: { label: horizontal ? x : y },
     marks: [bar, baseline],

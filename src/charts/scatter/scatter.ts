@@ -1,11 +1,9 @@
 import * as Plot from '@observablehq/plot';
-import type { BaseChartOptions, Datum } from '@/types';
+import type { Datum } from '@/types';
+import type { XYOptions } from '@/specs/options';
+import { frame } from '@/core/spec';
 
-export interface ScatterOptions extends BaseChartOptions {
-  /** Field for the x axis. */
-  x: string;
-  /** Field for the y axis. */
-  y: string;
+export interface ScatterOptions extends XYOptions {
   /** Optional field to color points by. */
   color?: string;
   /** Optional field controlling point radius. */
@@ -21,7 +19,7 @@ const DOT_FILL = '#6366f1';
  * encodings. Returns a Plot spec; render through `core/embed`.
  */
 export function scatterPlot(data: Datum[], options: ScatterOptions): Plot.PlotOptions {
-  const { x, y, color, size, label, title, width, height = 420 } = options;
+  const { x, y, color, size, label } = options;
 
   const marks: Plot.Markish[] = [
     Plot.dot(data, {
@@ -39,9 +37,7 @@ export function scatterPlot(data: Datum[], options: ScatterOptions): Plot.PlotOp
   }
 
   return {
-    ...(title !== undefined ? { title } : {}),
-    width: width ?? 640,
-    height,
+    ...frame(options, { width: 640, height: 420 }),
     ...(color ? { color: { legend: true } } : {}),
     x: { label: x, grid: true },
     y: { label: y, grid: true },

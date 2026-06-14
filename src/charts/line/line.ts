@@ -1,11 +1,9 @@
 import * as Plot from '@observablehq/plot';
-import type { BaseChartOptions, Datum } from '@/types';
+import type { Datum } from '@/types';
+import type { XYOptions } from '@/specs/options';
+import { frame } from '@/core/spec';
 
-export interface LineOptions extends BaseChartOptions {
-  /** Field for the x axis (temporal or quantitative — Plot infers the scale). */
-  x: string;
-  /** Field for the y axis. */
-  y: string;
+export interface LineOptions extends XYOptions {
   /** Optional field to split into multiple colored lines. */
   series?: string;
 }
@@ -17,7 +15,7 @@ const LINE_STROKE = '#6366f1';
  * colored line per group. Returns a Plot spec; render through `core/embed`.
  */
 export function lineChart(data: Datum[], options: LineOptions): Plot.PlotOptions {
-  const { x, y, series, title, width, height = 360 } = options;
+  const { x, y, series } = options;
   const stroke = series ?? LINE_STROKE;
 
   const marks: Plot.Markish[] = [
@@ -26,9 +24,7 @@ export function lineChart(data: Datum[], options: LineOptions): Plot.PlotOptions
   ];
 
   return {
-    ...(title !== undefined ? { title } : {}),
-    width: width ?? 760,
-    height,
+    ...frame(options, { width: 760, height: 360 }),
     ...(series ? { color: { legend: true } } : {}),
     x: { label: null },
     y: { label: y, grid: true },
