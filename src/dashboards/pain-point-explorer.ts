@@ -3,11 +3,15 @@ import { renderChart } from '@/core/registry';
 import { createStore } from '@/core/store';
 import { renderTable } from '@/components/Table/table';
 import { renderStoryPanel } from '@/components/StoryPanel/story-panel';
+import { getUrlParam, setUrlParam } from '@/core/persist';
 import { painPoints, weightedScore } from '@/data/aftermarket-pain-points';
 import { resolveElement } from '@/utils/dom';
 import type { Datum } from '@/types';
 
 const round = (n: number) => Math.round(n * 100) / 100;
+
+/** URL query parameter the current selection is persisted under. */
+const PARAM = 'painPoint';
 
 const DIMENSIONS: { key: keyof (typeof painPoints)[number]; label: string }[] = [
   { key: 'revenue', label: 'Revenue' },
@@ -36,7 +40,12 @@ export function painPointExplorer(root: HTMLElement | string): void {
     .map((p) => ({ label: p.label, score: round(weightedScore(p)) }))
     .sort((a, b) => b.score - a.score);
 
-  const store = createStore<string>(rows[0].label);
+  // Restore the selection from the URL if it names a known pain point.
+  const restored = getUrlParam(PARAM);
+  const initial = painPoints.some((p) => p.label === restored) ? (restored as string) : rows[0].label;
+
+  const store = createStore<string>(initial);
+  store.subscribe((label) => setUrlParam(PARAM, label));
 
   const renderTableView = () => {
     const selectedIndex = rows.findIndex((r) => r.label === store.get());

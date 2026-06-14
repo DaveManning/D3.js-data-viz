@@ -1,7 +1,12 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { painPointExplorer } from './pain-point-explorer';
+import { getUrlParam } from '@/core/persist';
 
 describe('painPointExplorer', () => {
+  beforeEach(() => {
+    window.history.replaceState(null, '', '/'); // isolate URL state between tests
+  });
+
   it('renders a table, a chart, and a story panel', () => {
     const el = document.createElement('div');
     document.body.append(el);
@@ -26,5 +31,27 @@ describe('painPointExplorer', () => {
     expect(after).not.toBe(before);
     // the newly clicked row is now marked selected
     expect(el.querySelectorAll('table tbody tr')[3].classList.contains('is-selected')).toBe(true);
+  });
+
+  it('persists the selection to the URL when a row is clicked', () => {
+    const el = document.createElement('div');
+    document.body.append(el);
+    painPointExplorer(el);
+
+    const rows = el.querySelectorAll('table tbody tr');
+    const label = rows[2].querySelector('td')?.textContent;
+    rows[2].dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(getUrlParam('painPoint')).toBe(label);
+  });
+
+  it('restores the selection from the URL on load', () => {
+    window.history.replaceState(null, '', '/?painPoint=Field%20workforce');
+    const el = document.createElement('div');
+    document.body.append(el);
+    painPointExplorer(el);
+
+    const selected = el.querySelector('table tbody tr.is-selected td')?.textContent;
+    expect(selected).toBe('Field workforce');
   });
 });

@@ -27,8 +27,9 @@ layer over D3 — the natural successor to hand-rolled D3 — and gives us scale
 axes, legends, faceting, and transforms for free.
 
 This decision **shrinks** the original target tree: `core/` no longer needs
-`lifecycle/`, `state/`, `scales/`, `layouts/`, or `transitions/` — Plot owns all
-of that.
+`lifecycle/`, `scales/`, `layouts/`, or `transitions/` — Plot owns all of that.
+(`core/` does hold a small `store.ts` for dashboard selection state, but that's
+lightweight shared state for linking views, not a rendering-state engine.)
 
 ### Why Plot over Vega-Lite (decided after due diligence)
 
@@ -63,19 +64,42 @@ already has hands-on experience with it. Trade-offs we consciously accepted:
 > Tooltips and legends mostly come free from Plot, so `components/` is reserved
 > for genuinely custom UI rather than re-implementing built-ins.
 
-## Target tree
+## Current tree (built through M3/M4)
+
+Most of the target structure now exists. `*` marks layers with more to come
+(see [ROADMAP.md](./ROADMAP.md)).
 
 ```
 src/
-├── core/           # thin host: Plot.plot wrapper + theme application
-├── charts/         # chart factories — BarChart, LineChart, ScatterPlot, Pareto, Heatmap
-├── components/     # custom UI: Filters, Table, StoryPanel
-├── dashboards/     # composed, coordinated views
-├── specs/          # reusable option presets + shared spec types
-├── themes/         # default Plot options
-├── data/           # loaders / transforms (raw files stay in top-level data/)
-└── utils/
+├── core/                      # the engine seam
+│   ├── embed.ts               #   render(): the single Plot.plot wrapper + theme
+│   ├── spec.ts                #   frame(): shared title/width/height options
+│   ├── registry.ts            #   name → factory dispatch + renderChart()
+│   ├── store.ts               #   createStore(): reactive shared state for linking
+│   └── persist.ts             #   getUrlParam/setUrlParam: selection in the URL
+├── charts/                    # chart factories — (data, options) => Plot spec
+│   ├── bar/  pareto/  line/  scatter/
+│   └── index.ts               #   registers the built-ins
+├── components/                # custom UI Plot doesn't provide
+│   ├── Filters/               #   createSelectFilter
+│   ├── Table/                 #   renderTable (selectable rows)
+│   └── StoryPanel/            #   renderStoryPanel
+├── dashboards/                # composed, coordinated views
+│   ├── advertising-explorer   #   control → re-render a chart (coordinated)
+│   └── pain-point-explorer    #   table → store → chart + story (linked, persisted)
+├── specs/                     # options.ts (shared types) + presets.ts (view defs)
+├── themes/                    # default.ts — shared Plot options
+├── data/                      # typed datasets (+ CSV loaded via ?raw)
+└── utils/                     # csv.ts, dom.ts
 ```
+
+### How a dashboard wires the layers together
+
+`pain-point-explorer` is the reference for the full stack: a `store` holds the
+selection (seeded from the URL via `persist`); the `Table` writes to it on row
+click; subscribers re-render a chart (by name, through the `registry`) and the
+`StoryPanel`; every change is written back to the URL. Charts stay pure — all
+the state lives in the store, not the views.
 
 ## The contract every chart follows (the vertical slice)
 

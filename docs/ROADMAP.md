@@ -50,8 +50,10 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
 
 - [x] First dashboard: `dashboards/advertising-explorer` (Filters → scatter → table).
 - [x] Multi-view dashboard with shared selections (`dashboards/pain-point-explorer`).
-- [ ] Persist/restore dashboard state (which presets, current selection) — the
-      payoff of presets being serializable descriptors.
+- [x] Persist/restore the current selection in the URL (`core/persist.ts`) —
+      shareable, survives reload.
+- [ ] Persist *which* presets/views compose a dashboard (the next step now that
+      selection persistence is proven).
 - [ ] A first end-to-end dashboard on a real dataset.
 
 ## Backlog / hygiene
