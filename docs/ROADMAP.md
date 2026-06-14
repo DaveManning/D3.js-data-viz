@@ -30,17 +30,23 @@ The ordering principle: **prove the pattern on a real chart before generalizing.
       for title/width/height), `core/registry.ts` (name → factory dispatch +
       `renderChart`), and `specs/options.ts` (shared `XYOptions` /
       `CategoryValueOptions`). Theme application already lives in `core/embed`.
-- [ ] Ship a few reusable option presets in `specs/` (pre-wired chart configs
-      for the bundled datasets).
+- [x] Ship reusable option presets in `specs/presets.ts` (registry-dispatchable
+      view definitions); the demo gallery now renders from them.
 
 ## M3 — Components & interaction
 
-- [ ] `components/`: Filters, Table, StoryPanel.
-- [ ] Coordinated/linked selections across views (Plot render hooks + shared state).
+- [x] `components/Filters` (`createSelectFilter`) and `components/Table`
+      (`renderTable`) — first custom UI components.
+- [ ] `components/StoryPanel`.
+- [x] First coordinated interaction: a control re-renders a chart via the
+      registry (`dashboards/advertising-explorer`).
+- [ ] Linked selections *across* views (brush in one chart filters another),
+      via Plot render hooks + shared state.
 
 ## M4 — Dashboard ecosystem
 
-- [ ] `dashboards/`: compose multiple views with shared selections.
+- [x] First dashboard: `dashboards/advertising-explorer` (Filters → scatter → table).
+- [ ] Multi-view dashboard with shared selections across charts.
 - [ ] A first end-to-end dashboard on a real dataset.
 
 ## Backlog / hygiene

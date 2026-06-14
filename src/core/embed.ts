@@ -1,5 +1,6 @@
 import * as Plot from '@observablehq/plot';
 import { defaultTheme } from '@/themes/default';
+import { resolveElement } from '@/utils/dom';
 
 /** A chart spec is the options object passed to `Plot.plot()`. */
 export type ChartSpec = Plot.PlotOptions;
@@ -17,11 +18,7 @@ export function render(
   el: HTMLElement | string,
   spec: ChartSpec,
 ): SVGSVGElement | HTMLElement {
-  const target = typeof el === 'string' ? document.querySelector(el) : el;
-  if (!target) {
-    throw new Error(`render: no element found for "${String(el)}"`);
-  }
-
+  const target = resolveElement(el);
   const figure = Plot.plot({ ...defaultTheme, ...spec });
   target.replaceChildren(figure);
   return figure;

@@ -14,6 +14,7 @@
     }
     main { max-width: 960px; margin: 0 auto; }
     h1 { font-size: 1.25rem; }
+    h2 { font-size: 1rem; margin-top: 2.5rem; }
     p { color: #475569; }
     .chart {
       margin-top: 1.5rem;
@@ -22,15 +23,31 @@
       border: 1px solid #e2e8f0;
       border-radius: 1rem;
     }
+    .viz-controls { margin-bottom: 1rem; }
+    .viz-filter { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+    .viz-filter select {
+      padding: 0.35rem 0.5rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 0.5rem;
+      background: #fff;
+      font: inherit;
+    }
+    .viz-table { width: 100%; border-collapse: collapse; margin-top: 1.25rem; font-size: 0.8125rem; }
+    .viz-table th, .viz-table td { padding: 0.4rem 0.6rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+    .viz-table th { color: #1e293b; font-weight: 600; }
+    .viz-table td { color: #475569; }
   </style>
 </head>
 <body>
   <main>
     <h1>D3.js-data-viz</h1>
-    <p>Chart factories rendered through the shared runtime + theme — each a pure <code>(data, options) =&gt; spec</code>.</p>
-    <div id="pareto" class="chart"></div>
-    <div id="scatter" class="chart"></div>
-    <div id="line" class="chart"></div>
+    <p>Chart factories rendered through the shared runtime + theme — each a pure <code>(data, options) =&gt; spec</code>, dispatched by name through the registry.</p>
+
+    <h2>Gallery</h2>
+    <div id="gallery"></div>
+
+    <h2>Coordinated dashboard</h2>
+    <div id="explorer" class="chart"></div>
   </main>
   <script type="module" src="/src/main.ts"></script>
 </body>

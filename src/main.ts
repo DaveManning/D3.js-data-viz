@@ -1,35 +1,17 @@
-import { render } from '@/core/embed';
-import { paretoChart } from '@/charts/pareto/pareto';
-import { scatterPlot } from '@/charts/scatter/scatter';
-import { lineChart } from '@/charts/line/line';
-import { painPointScores } from '@/data/aftermarket-pain-points';
-import { advertising } from '@/data/advertising';
-import { quarterlyRevenue } from '@/data/quarterly-revenue';
+import '@/charts'; // register the built-in charts
+import { renderChart } from '@/core/registry';
+import { galleryPresets } from '@/specs/presets';
+import { advertisingExplorer } from '@/dashboards/advertising-explorer';
+import { resolveElement } from '@/utils/dom';
 
-render(
-  '#pareto',
-  paretoChart(painPointScores, {
-    category: 'label',
-    value: 'score',
-    threshold: 80,
-    title: 'Aftermarket & service pain points — weighted impact (Pareto)',
-  }),
-);
+// Gallery: render each preset by name through the registry.
+const gallery = resolveElement('#gallery');
+for (const preset of galleryPresets) {
+  const card = document.createElement('div');
+  card.className = 'chart';
+  gallery.append(card);
+  renderChart(card, preset.chart, preset.data, preset.options);
+}
 
-render(
-  '#scatter',
-  scatterPlot(advertising, {
-    x: 'TV',
-    y: 'sales',
-    title: 'Advertising: TV spend vs. sales (200 markets)',
-  }),
-);
-
-render(
-  '#line',
-  lineChart(quarterlyRevenue, {
-    x: 'date',
-    y: 'revenue',
-    title: 'Projected revenue over time ($M)',
-  }),
-);
+// Coordinated dashboard.
+advertisingExplorer('#explorer');
