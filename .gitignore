@@ -7,3 +7,6 @@ dist/
 # editor lock / temp files
 *.~lock.*#
 *~
+
+# contains names, emails and private notes on real people - keep local
+data/interview candidates  - Sheet1.csv

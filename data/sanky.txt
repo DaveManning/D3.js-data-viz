@@ -1,0 +1,1547 @@
+https://julius.site/0decb003-5937-4730-88fd-120c4a65dd9e?utm_source=shared_artifact&ref=22UQZHB9K3XS
+
+<edgarSubmission xmlns="http://www.sec.gov/edgar/nport" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/nport eis_NPORT_Filer.xsd">
+<headerData>
+<submissionType>NPORT-P</submissionType>
+<isConfidential>false</isConfidential>
+<filerInfo>
+<filer>
+<issuerCredentials>
+<cik>0000028540</cik>
+<ccc>XXXXXXXX</ccc>
+</issuerCredentials>
+</filer>
+<seriesClassInfo>
+<seriesId>S000055837</seriesId>
+<classId>C000175832</classId>
+</seriesClassInfo>
+</filerInfo>
+</headerData>
+<formData>
+<genInfo>
+<regName>Fidelity Oxford Street Trust</regName>
+<regFileNumber>811-03480</regFileNumber>
+<regCik>0000028540</regCik>
+<regLei>Z2ZIGDKL3355UQRAKY22</regLei>
+<regStreet1>245 Summer Street</regStreet1>
+<regCity>Boston</regCity>
+<regStateConditional regCountry="US" regState="US-MA"/>
+<regZipOrPostalCode>02210</regZipOrPostalCode>
+<regPhone>1-800-FIDELITY</regPhone>
+<seriesName>Fidelity Commodity Strategy Fund</seriesName>
+<seriesId>S000055837</seriesId>
+<seriesLei>549300XKSI7AZECYWL37</seriesLei>
+<repPdEnd>2026-07-31</repPdEnd>
+<repPdDate>2025-10-31</repPdDate>
+<isFinalFiling>N</isFinalFiling>
+</genInfo>
+<fundInfo>
+<totAssets>96672290.61</totAssets>
+<totLiabs>47977.72</totLiabs>
+<netAssets>96624312.89</netAssets>
+<assetsAttrMiscSec>0.00000000</assetsAttrMiscSec>
+<assetsInvested>17632625.21000000</assetsInvested>
+<amtPayOneYrBanksBorr>0.00000000</amtPayOneYrBanksBorr>
+<amtPayOneYrCtrldComp>0.00000000</amtPayOneYrCtrldComp>
+<amtPayOneYrOthAffil>0.00000000</amtPayOneYrOthAffil>
+<amtPayOneYrOther>0.00000000</amtPayOneYrOther>
+<amtPayAftOneYrBanksBorr>0.00000000</amtPayAftOneYrBanksBorr>
+<amtPayAftOneYrCtrldComp>0.00000000</amtPayAftOneYrCtrldComp>
+<amtPayAftOneYrOthAffil>0.00000000</amtPayAftOneYrOthAffil>
+<amtPayAftOneYrOther>0.00000000</amtPayAftOneYrOther>
+<delayDeliv>0.00000000</delayDeliv>
+<standByCommit>0.00000000</standByCommit>
+<liquidPref>0.00000000</liquidPref>
+<cshNotRptdInCorD>282195.03000000</cshNotRptdInCorD>
+<isNonCashCollateral>N</isNonCashCollateral>
+<returnInfo>
+<monthlyTotReturns>
+<monthlyTotReturn classId="C000175832" rtn1="1.91000000" rtn2="2.26000000" rtn3="2.32000000"/>
+</monthlyTotReturns>
+<monthlyReturnCats>
+<commodityContracts>
+<mon1 netRealizedGain="-3256760.12000000" netUnrealizedAppr="4587325.46000000"/>
+<mon2 netRealizedGain="711694.02000000" netUnrealizedAppr="958129.10000000"/>
+<mon3 netRealizedGain="4382802.86000000" netUnrealizedAppr="-2381332.18000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="-3256760.12000000" netUnrealizedAppr="4587325.46000000"/>
+<instrMon2 netRealizedGain="711694.02000000" netUnrealizedAppr="958129.10000000"/>
+<instrMon3 netRealizedGain="4382802.86000000" netUnrealizedAppr="-2381332.18000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</commodityContracts>
+<creditContracts>
+<mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</creditContracts>
+<equityContracts>
+<mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</equityContracts>
+<foreignExchgContracts>
+<mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</foreignExchgContracts>
+<interestRtContracts>
+<mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</interestRtContracts>
+<otherContracts>
+<mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<forwardCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</forwardCategory>
+<futureCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</futureCategory>
+<optionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</optionCategory>
+<swaptionCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swaptionCategory>
+<swapCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</swapCategory>
+<warrantCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</warrantCategory>
+<otherCategory>
+<instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+<instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+</otherCategory>
+</otherContracts>
+</monthlyReturnCats>
+<othMon1 netRealizedGain="-62.99000000" netUnrealizedAppr="747.50000000"/>
+<othMon2 netRealizedGain="94.58000000" netUnrealizedAppr="-114.01000000"/>
+<othMon3 netRealizedGain="-237.40000000" netUnrealizedAppr="700.41000000"/>
+</returnInfo>
+<mon1Flow redemption="14204952.45000000" reinvestment="0.00000000" sales="1887242.55000000"/>
+<mon2Flow redemption="1402612.25000000" reinvestment="1747953.82000000" sales="616509.10000000"/>
+<mon3Flow redemption="2302534.39000000" reinvestment="0.00000000" sales="1120466.94000000"/>
+<varInfo>
+<fundsDesignatedInfo>
+<nameDesignatedIndex>Bloomberg Commodity 3 Month Forward Total Return Index</nameDesignatedIndex>
+<indexIdentifier>87539605</indexIdentifier>
+</fundsDesignatedInfo>
+</varInfo>
+</fundInfo>
+<invstOrSecs>
+<invstOrSec>
+<name>ICE-ICE FUTURES LTD</name>
+<lei>N/A</lei>
+<title>LOW SU GASOIL G FUT MAR26 QSH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<isin value="GB00HBC8RD47"/>
+</identifiers>
+<balance>35.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>50947.93000000</valUSD>
+<pctVal>0.052727857488</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>ICE-ICE FUTURES LTD</counterpartyName>
+<counterpartyLei>N/A</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>GAS OIL</issuerName>
+<issueTitle>GAS OIL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="06C99B226"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-12</expDate>
+<notionalAmt>2271302.07000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>50947.93000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>SOYBEAN OIL FUTR MAR26 BOH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="BOH6"/>
+</identifiers>
+<balance>116.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-81844.82000000</valUSD>
+<pctVal>-0.08470416766</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>SOYBEAN OIL</issuerName>
+<issueTitle>SOYBEAN OIL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99P222"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>3535396.82000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-81844.82000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>SOYBEAN FUTURE MAR26 S H6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="SH6"/>
+</identifiers>
+<balance>102.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>394906.58000000</valUSD>
+<pctVal>0.408703118489</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>SOYBEANS</issuerName>
+<issueTitle>SOYBEANS</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99S226"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>5336218.42000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>394906.58000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>UST BILLS</name>
+<lei>254900HROIFWPRGM1V77</lei>
+<title>UST BILLS 0% 12/04/2025</title>
+<cusip>912797QS9</cusip>
+<identifiers>
+<isin value="US912797QS94"/>
+</identifiers>
+<balance>2000000.00000000</balance>
+<units>PA</units>
+<curCd>USD</curCd>
+<valUSD>1993322.94000000</valUSD>
+<pctVal>2.062962085194</pctVal>
+<payoffProfile>Long</payoffProfile>
+<assetCat>DBT</assetCat>
+<issuerCat>UST</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>2</fairValLevel>
+<debtSec>
+<maturityDt>2025-12-04</maturityDt>
+<couponKind>Fixed</couponKind>
+<annualizedRt>0.00000000</annualizedRt>
+<isDefault>N</isDefault>
+<areIntrstPmntsInArrs>N</areIntrstPmntsInArrs>
+<isPaidKind>N</isPaidKind>
+</debtSec>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>COMMODITY EXCHANGE INC</name>
+<lei>N/A</lei>
+<title>GOLD 100 OZ FUTR APR26 GCJ6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="GCJ6"/>
+</identifiers>
+<balance>46.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-175799.36000000</valUSD>
+<pctVal>-0.18194112303</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>COMMODITY EXCHANGE INC</counterpartyName>
+<counterpartyLei>N/A</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>GOLD BULLION</issuerName>
+<issueTitle>GOLD BULLION</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="689994101"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-04-28</expDate>
+<notionalAmt>18847199.36000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-175799.36000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>NEW YORK MERCANTILE EXCHANGE</name>
+<lei>5493008GFNDTXFPHWI47</lei>
+<title>GASOLINE RBOB FUT MAR26 XBH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="XBH6"/>
+</identifiers>
+<balance>22.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>25036.98000000</valUSD>
+<pctVal>0.025911677145</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>NEW YORK MERCANTILE EXCHANGE</counterpartyName>
+<counterpartyLei>5493008GFNDTXFPHWI47</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<indexBasketInfo>
+<indexName>REFORMULATED 84 OCT OXG INDEX</indexName>
+<indexIdentifier>34T99S223</indexIdentifier>
+</indexBasketInfo>
+</descRefInstrmnt>
+<expDate>2026-02-27</expDate>
+<notionalAmt>1709773.02000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>25036.98000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>LONDON METAL EXCHANGE</name>
+<lei>213800NB8G5VRT1DXC91</lei>
+<title>LME ZINC CMDY FWD 03/18/26</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LMZSDP"/>
+</identifiers>
+<balance>27.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>51398.74000000</valUSD>
+<pctVal>0.053194417080</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>LONDON METAL EXCHANGE</counterpartyName>
+<counterpartyLei>213800NB8G5VRT1DXC91</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>ZINC</issuerName>
+<issueTitle>ZINC</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="02A99Q224"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-16</expDate>
+<notionalAmt>2005657.01000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>51398.74000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>SOYBEAN MEAL FUTR MAR26 SMH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="SMH6"/>
+</identifiers>
+<balance>100.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>396307.86000000</valUSD>
+<pctVal>0.410153353898</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>SOYBEAN MEAL</issuerName>
+<issueTitle>SOYBEAN MEAL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="15T99L227"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>2863692.14000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>396307.86000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>ICE FUTURES US</name>
+<lei>5493004R83R1LVX2IL36</lei>
+<title>COTTON NO.2 FUTR MAR26 CTH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="CTH6"/>
+</identifiers>
+<balance>40.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-12872.49000000</valUSD>
+<pctVal>-0.01332220599</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>ICE FUTURES US</counterpartyName>
+<counterpartyLei>5493004R83R1LVX2IL36</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>COTTON</issuerName>
+<issueTitle>COTTON</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99W227"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-09</expDate>
+<notionalAmt>1347472.49000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-12872.49000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>NEW YORK MERCANTILE EXCHANGE</name>
+<lei>5493008GFNDTXFPHWI47</lei>
+<title>NY HARB ULSD FUT MAR26 HOH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="HOH6"/>
+</identifiers>
+<balance>19.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>65987.81000000</valUSD>
+<pctVal>0.068293173867</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>NEW YORK MERCANTILE EXCHANGE</counterpartyName>
+<counterpartyLei>5493008GFNDTXFPHWI47</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>HEATING OIL</issuerName>
+<issueTitle>HEATING OIL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99K223"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-02-27</expDate>
+<notionalAmt>1776434.59000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>65987.81000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>ICE FUTURES US</name>
+<lei>5493004R83R1LVX2IL36</lei>
+<title>SUGAR #11 (WORLD) FUT MAR26 SBH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="SBH6"/>
+</identifiers>
+<balance>118.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-268814.04000000</valUSD>
+<pctVal>-0.27820538326</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>ICE FUTURES US</counterpartyName>
+<counterpartyLei>5493004R83R1LVX2IL36</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>SUGAR</issuerName>
+<issueTitle>SUGAR</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99Y223"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-02-27</expDate>
+<notionalAmt>2175882.84000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-268814.04000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>NEW YORK MERCANTILE EXCHANGE</name>
+<lei>5493008GFNDTXFPHWI47</lei>
+<title>WTI CRUDE FUTURE MAR26 CLH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="CLH6"/>
+</identifiers>
+<balance>81.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-75734.62000000</valUSD>
+<pctVal>-0.07838050045</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>NEW YORK MERCANTILE EXCHANGE</counterpartyName>
+<counterpartyLei>5493008GFNDTXFPHWI47</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>WTI CRUDE</issuerName>
+<issueTitle>WTI CRUDE</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="18B99H229"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-02-20</expDate>
+<notionalAmt>4940594.62000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-75734.62000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>NEW YORK MERCANTILE EXCHANGE</name>
+<lei>5493008GFNDTXFPHWI47</lei>
+<title>NATURAL GAS FUTR MAR26 NGH26</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="NGH26"/>
+</identifiers>
+<balance>220.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>105587.26000000</valUSD>
+<pctVal>0.109276078496</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>NEW YORK MERCANTILE EXCHANGE</counterpartyName>
+<counterpartyLei>5493008GFNDTXFPHWI47</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>NATURAL GAS</issuerName>
+<issueTitle>NATURAL GAS</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99N227"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-02-25</expDate>
+<notionalAmt>8168612.74000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>105587.26000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO MERCANTILE EXCH INC</name>
+<lei>SNZ2OJLFK8MNNCLQOF39</lei>
+<title>LEAN HOGS FUTURE APR26 LHJ6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LHJ6"/>
+</identifiers>
+<balance>47.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-83880.79000000</valUSD>
+<pctVal>-0.08681126674</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO MERCANTILE EXCH INC</counterpartyName>
+<counterpartyLei>SNZ2OJLFK8MNNCLQOF39</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>LEAN HOGS</issuerName>
+<issueTitle>LEAN HOGS</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99L221"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-04-15</expDate>
+<notionalAmt>1704910.79000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-83880.79000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>KC HRW WHEAT FUT MAR26 KWH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="KWH6"/>
+</identifiers>
+<balance>57.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>39962.92000000</valUSD>
+<pctVal>0.041359072892</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>HARD RED WINTER WHEAT</issuerName>
+<issueTitle>HARD RED WINTER WHEAT</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="JYV840000"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>1489774.58000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>39962.92000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>LONDON METAL EXCHANGE</name>
+<lei>213800NB8G5VRT1DXC91</lei>
+<title>LME NICKEL CMDY FWD 03/18/2026</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LMNIDP"/>
+</identifiers>
+<balance>22.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-17585.64000000</valUSD>
+<pctVal>-0.01820001557</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>LONDON METAL EXCHANGE</counterpartyName>
+<counterpartyLei>213800NB8G5VRT1DXC91</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>NICKEL</issuerName>
+<issueTitle>NICKEL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="02A99U225"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-16</expDate>
+<notionalAmt>2039231.64000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-17585.64000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>UST BILLS</name>
+<lei>254900HROIFWPRGM1V77</lei>
+<title>UST BILLS 0% 01/15/2026</title>
+<cusip>912797RJ8</cusip>
+<identifiers>
+<isin value="US912797RJ86"/>
+</identifiers>
+<balance>6000000.00000000</balance>
+<units>PA</units>
+<curCd>USD</curCd>
+<valUSD>5954163.30000000</valUSD>
+<pctVal>6.162179188563</pctVal>
+<payoffProfile>Long</payoffProfile>
+<assetCat>DBT</assetCat>
+<issuerCat>UST</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>2</fairValLevel>
+<debtSec>
+<maturityDt>2026-01-15</maturityDt>
+<couponKind>Fixed</couponKind>
+<annualizedRt>0.00000000</annualizedRt>
+<isDefault>N</isDefault>
+<areIntrstPmntsInArrs>N</areIntrstPmntsInArrs>
+<isPaidKind>N</isPaidKind>
+</debtSec>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO MERCANTILE EXCH INC</name>
+<lei>SNZ2OJLFK8MNNCLQOF39</lei>
+<title>LIVE CATTLE FUTR APR26 LCJ6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LCJ6"/>
+</identifiers>
+<balance>39.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-288978.08000000</valUSD>
+<pctVal>-0.29907387836</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO MERCANTILE EXCH INC</counterpartyName>
+<counterpartyLei>SNZ2OJLFK8MNNCLQOF39</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>LIVE CATTLE</issuerName>
+<issueTitle>LIVE CATTLE</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99V229"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-04-30</expDate>
+<notionalAmt>3825888.08000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-288978.08000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>COMMODITY EXCHANGE INC</name>
+<lei>N/A</lei>
+<title>SILVER FUTURE MAR26 SIH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="SIH6"/>
+</identifiers>
+<balance>25.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>130589.04000000</valUSD>
+<pctVal>0.135151325886</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>COMMODITY EXCHANGE INC</counterpartyName>
+<counterpartyLei>N/A</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>SILVER BULLION (1 OZ BAR)</issuerName>
+<issueTitle>SILVER BULLION (1 OZ = 1 SHR)</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="837996925"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-27</expDate>
+<notionalAmt>5963410.96000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>130589.04000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>Fidelity Revere Street Trust</name>
+<lei>549300BDV45LJNXBZC55</lei>
+<title>Fidelity Cash Central Fund</title>
+<cusip>31635A105</cusip>
+<identifiers>
+<isin value="US31635A1051"/>
+</identifiers>
+<balance>87587784.74700000</balance>
+<units>NS</units>
+<curCd>USD</curCd>
+<valUSD>87605302.31000000</valUSD>
+<pctVal>90.66589938883</pctVal>
+<payoffProfile>Long</payoffProfile>
+<assetCat>STIV</assetCat>
+<issuerCat>RF</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>LONDON METAL EXCHANGE</name>
+<lei>213800NB8G5VRT1DXC91</lei>
+<title>LME ALUMINUM CMDY FWD 03/18/2026</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LMAHDP"/>
+</identifiers>
+<balance>56.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>268639.46000000</valUSD>
+<pctVal>0.278024704098</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>LONDON METAL EXCHANGE</counterpartyName>
+<counterpartyLei>213800NB8G5VRT1DXC91</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>ALUMINUM</issuerName>
+<issueTitle>ALUMINUM</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="02A99P226"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-16</expDate>
+<notionalAmt>3778368.54000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>268639.46000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>WHEAT FUTURE(CBT) MAR26 W H6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="WH6"/>
+</identifiers>
+<balance>89.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>72117.70000000</valUSD>
+<pctVal>0.074637218980</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>WHEAT</issuerName>
+<issueTitle>WHEAT</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99T224"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>2368707.30000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>72117.70000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>CHICAGO BOARD OF TRADE</name>
+<lei>549300EX04Q2QBFQTQ27</lei>
+<title>CORN FUTURE MAR26 C H6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="CH6"/>
+</identifiers>
+<balance>210.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>82912.40000000</valUSD>
+<pctVal>0.085809044866</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>CHICAGO BOARD OF TRADE</counterpartyName>
+<counterpartyLei>549300EX04Q2QBFQTQ27</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>CORN</issuerName>
+<issueTitle>CORN</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99Q220"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-13</expDate>
+<notionalAmt>4579087.60000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>82912.40000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>ICE-ICE FUTURES LTD</name>
+<lei>N/A</lei>
+<title>BRENT CRUDE FUTR MAY26 COK6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<isin value="GB00H7Q1B518"/>
+</identifiers>
+<balance>89.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>-10414.70000000</valUSD>
+<pctVal>-0.01077855012</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>ICE-ICE FUTURES LTD</counterpartyName>
+<counterpartyLei>N/A</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>BRENT CRUDE OIL</issuerName>
+<issueTitle>BRENT CRUDE OIL</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="06C99A228"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-31</expDate>
+<notionalAmt>5676154.70000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>-10414.70000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>ICE FUTURES US</name>
+<lei>5493004R83R1LVX2IL36</lei>
+<title>COFFEE 'C' FUTURE MAR26 KCH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="KCH6"/>
+</identifiers>
+<balance>21.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>69373.98000000</valUSD>
+<pctVal>0.071797643807</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>ICE FUTURES US</counterpartyName>
+<counterpartyLei>5493004R83R1LVX2IL36</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>COFFEE</issuerName>
+<issueTitle>COFFEE</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99X225"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-19</expDate>
+<notionalAmt>2862094.77000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>69373.98000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>COMMODITY EXCHANGE INC</name>
+<lei>N/A</lei>
+<title>COPPER FUTURE MAR26 HGH6</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="HGH6"/>
+</identifiers>
+<balance>44.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>177450.22000000</valUSD>
+<pctVal>0.183649657826</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>US</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>COMMODITY EXCHANGE INC</counterpartyName>
+<counterpartyLei>N/A</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>COPPER</issuerName>
+<issueTitle>COPPER</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="13K99R228"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-27</expDate>
+<notionalAmt>5495249.78000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>177450.22000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+<invstOrSec>
+<name>LONDON METAL EXCHANGE</name>
+<lei>213800NB8G5VRT1DXC91</lei>
+<title>LME LEAD CMDY FWD 03/18/2026</title>
+<cusip>N/A</cusip>
+<identifiers>
+<ticker value="LMPBDP"/>
+</identifiers>
+<balance>16.00000000</balance>
+<units>NC</units>
+<curCd>USD</curCd>
+<valUSD>439.88000000</valUSD>
+<pctVal>0.000455247739</pctVal>
+<payoffProfile>N/A</payoffProfile>
+<assetCat>DCO</assetCat>
+<issuerCat>CORP</issuerCat>
+<invCountry>GB</invCountry>
+<isRestrictedSec>N</isRestrictedSec>
+<fairValLevel>1</fairValLevel>
+<derivativeInfo>
+<futrDeriv derivCat="FUT">
+<counterparties>
+<counterpartyName>LONDON METAL EXCHANGE</counterpartyName>
+<counterpartyLei>213800NB8G5VRT1DXC91</counterpartyLei>
+</counterparties>
+<payOffProf>Long</payOffProf>
+<descRefInstrmnt>
+<otherRefInst>
+<issuerName>LEAD</issuerName>
+<issueTitle>LEAD</issueTitle>
+<identifiers>
+<other otherDesc="Internal" value="15S994226"/>
+</identifiers>
+</otherRefInst>
+</descRefInstrmnt>
+<expDate>2026-03-16</expDate>
+<notionalAmt>814316.12000000</notionalAmt>
+<curCd>USD</curCd>
+<unrealizedAppr>439.88000000</unrealizedAppr>
+</futrDeriv>
+</derivativeInfo>
+<securityLending>
+<isCashCollateral>N</isCashCollateral>
+<isNonCashCollateral>N</isNonCashCollateral>
+<isLoanByFund>N</isLoanByFund>
+</securityLending>
+</invstOrSec>
+</invstOrSecs>
+<explntrNotes>
+<explntrNote note="As of March 2025, monthly returns presented in Item B.5.a. have been calculated without deducting any applicable sales loads or redemption fees." noteItem="B.5.a"/>
+</explntrNotes>
+<signature>
+<ncom:dateSigned>2025-11-30</ncom:dateSigned>
+<ncom:nameOfApplicant>Laura M. Del Prato</ncom:nameOfApplicant>
+<ncom:signature>Laura M. Del Prato</ncom:signature>
+<ncom:signerName>Laura M. Del Prato</ncom:signerName>
+<ncom:title>President and Treasurer</ncom:title>
+</signature>
+</formData>
+<documents>XXXX</documents>
+</edgarSubmission>
